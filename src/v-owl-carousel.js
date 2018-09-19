@@ -10,9 +10,11 @@ export default {
 
     template: 
     `
-        <div class="owl-carousel owl-theme">
-            <slot></slot>
-        </div>
+        <div>
+            <div class="owl-carousel owl-theme">
+                <slot></slot>
+            </div>
+        </div>  
     `,
 
     props : {
